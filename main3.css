@@ -1,0 +1,56 @@
+.main3,.box2{
+    text-align:center;
+    margin:20px;
+    /* box-shadow:0 20px 40px rgba(0, 0, 0, 0.25); */
+}
+.footwear{
+    margin:8px;
+    display:flex;
+    overflow-x:auto;
+    overflow-y:hidden;
+    gap:5px;
+    object-fit:cover;
+}
+
+.foot{
+    border-radius:20px;
+}
+@media(max-width:800px){
+    .main3,.box2{padding-left:0px; padding-right:0px;}
+}
+
+
+.box3{
+    margin:20px;
+    padding:20px;
+}
+.topdeals{
+    text-align:center;
+    margin:20px;
+    background-color:rgb(243, 240, 240);
+    border-radius:20px;
+    padding-bottom:40px;
+}
+.block{
+    display:block;
+}
+.pro{
+    border-radius:20px;
+    height:200px;
+}
+@media(max-width:600px){
+    .box3{
+        padding:10px;
+        padding-top:20px;
+    }
+    .topdeals{
+        margin:0px;
+        padding-bottom:20px;
+    }
+    .block{
+        display:flex;
+        overflow-x:auto;
+        overflow-y:hidden;
+        gap:10px;
+    }
+}

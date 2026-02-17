@@ -1,0 +1,38 @@
+.main2,.box1{
+    text-align:center;
+    margin:20px;
+    /* box-shadow:0 20px 40px rgba(0, 0, 0, 0.25); */
+}
+.images{
+    margin:8px;
+    display:flex;
+    overflow-x:auto;
+    overflow-y:hidden;
+    width:100%;
+    gap:5px;
+}
+
+.image{
+    border-radius:20px;
+}
+@media(max-width:1200px){
+    .image{
+        width:220px;
+    }
+}
+@media(max-width:800px){
+    .images{
+        margin-left:0px;
+    }
+}
+
+
+@media(max-width:400px){
+    .main2,.box1{
+        margin:8px;
+    }
+    .image{
+        width:150px;
+        border-radius:12px;
+    }
+}

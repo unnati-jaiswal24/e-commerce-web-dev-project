@@ -1,0 +1,55 @@
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+
+
+
+body{
+    min-height:100vh;
+    background-color:rgb(240, 241, 241);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+    background:url("products/draw.jpg");
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    background-repeat:no-repeat;
+    backdrop-filter: blur(3px);
+
+}
+.inner-box{
+    background-color:rgba(255, 255, 255, 0.95);
+    width:380px;
+    padding:32px;
+    border-radius:16px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+    text-align:center;
+    border:2px solid rgb(12, 12, 12);
+    margin:20px;
+}
+.logo-form{
+    margin-bottom:20px;
+}
+
+@media(max-width:400px){
+    .signup {
+        font-size: 13px;
+        text-align: center;
+    }
+    .inner-box {
+        width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+  }
+
+    .inner-box h1 {
+        font-size: 20px;
+        margin-bottom: 12px;
+  }
+}
