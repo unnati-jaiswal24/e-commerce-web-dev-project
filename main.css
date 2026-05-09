@@ -21,7 +21,7 @@
 }
 .hero2{
   height: 65vh;
-  background-image: url("images/mens .avif");
+  background-image: url("images/mens.avif");
   background-size: cover;
   background-position:center;
   position: relative;
@@ -41,7 +41,7 @@
 }
 .hero3{
   height: 65vh;
-  background-image: url("images/womens .jpg");
+  background-image: url("images/womens.jpg");
   background-size: cover;
   background-position:center;
   position: relative;
